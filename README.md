@@ -8,7 +8,7 @@ Installation
 
 To use locally
 
-    npm install autolinks
+    download & extract in node_modules folder
 
 Example
 -------
