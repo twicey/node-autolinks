@@ -16,7 +16,7 @@ var mailre = /\w+@[a-z\u00c0-\u01bf_]+?(?:\.[a-z\u00c0-\u01bf]{2,6})+/gim;
 
 var formats = {
   'html': function (title, url) {
-    return '<a href="' + url + '">' + title + '</a>';
+    return '<a href="#" onclick="gui.Shell.openExternal(\'' + url + '\');">' + title + '</a>';
   },
   'markdown': function (title, url) {
     return '[' + title + '](' + url + ')';
