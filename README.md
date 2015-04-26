@@ -1,4 +1,4 @@
-autolinks for nwjs.io
+autolinks for NW.js
 =========
 
 Automatically turn URL's into links
